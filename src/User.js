@@ -145,10 +145,10 @@ const FormContainer = styled.form`
     padding: 0.5vw;
     margin-left: 1%;
     border: 0.5px solid gray;
-    /* width: 70vw; */
+
 }
 .submit-btn{
-    /* width: 50vw; */
+
     align-items: center;
 }
 `;
@@ -160,7 +160,7 @@ const Wrapper = styled.div`
     padding: 2vh 2vw;
     margin: 2vh 2vw;
     width: 30vw;
-    /* height: 80vh; */
+
     h5{
         margin: 10px auto;
     }

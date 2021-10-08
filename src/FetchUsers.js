@@ -19,7 +19,6 @@ const FetchUsers = () => {
                 const response = await axios.get("https://www.webappfactory.co/shaktipeeth/public/api/users?page="+ page);
                 const getusers = response.data;
                 setUsers(getusers.data.data);
-                // setPage(getusers.data.current_page);
                 setTotalPages(getusers.data.last_page);
                 
             } catch (err) {
@@ -94,8 +93,6 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     padding: 20px;
-    /* justify-content: space-between;
-    flex-direction: row; */
     flex-wrap: wrap;
     margin-left: 10vw;
     @media (max-width: 768px){
